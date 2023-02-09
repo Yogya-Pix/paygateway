@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import SignInScreen from './src/screens/SignInScreens';
@@ -6,6 +7,7 @@ import ConfirmEmailScreen from './src/screens/ConfirmEmailScreen';
 import ForgotPasswordScreen from './src/screens/ForgotPasswordScreen';
 import NewPasswordScreen from './src/screens/NewPasswordScreen/NewPasswordScreen';
 import Navigation from './src/navigation';
+
 
 const App = () => {
   return(
